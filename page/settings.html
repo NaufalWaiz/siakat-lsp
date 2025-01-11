@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengaturan</title>
+    <link rel="stylesheet" href="../style/styles.css" />
+  </head>
+  <body>
+    <div id="settings-page" class="page">
+      <h2>Pengaturan</h2>
+      <form>
+        <label style="font-size: 20px; color: #333;" for="theme" id="settings-title">Tema</label>
+        <select id="theme">
+          <option value="light">Terang</option>
+          <option value="dark">Gelap</option>
+        </select>
+        <label style="font-size: 20px; color: #333;" for="notif" id="settings-title">Notifikasi</label>
+        <input type="checkbox" id="notif" checked />
+        <label for="notif" class="custom-checkbox"></label>
+        <button type="submit">Simpan Perubahan</button>
+      </form>
+      <a href="home.html" class="back-to-home">Kembali ke Home</a>
+    </div>
+  </body>
+</html>
